@@ -1,7 +1,7 @@
 const express = require("express");
 const farmerAuth = require("../middleware/farmerAuth");
 const retailorAuth = require("../middleware/retailorAuth");
-const Order = require("../models/order");
+const Order = require("../models/Order");
 const Product = require("../models/Product");
 
 const router = new express.Router();
